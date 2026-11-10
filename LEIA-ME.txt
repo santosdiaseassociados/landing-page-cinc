@@ -1,0 +1,20 @@
+CINC — Landing Page (site estático)
+
+Conteúdo
+- index.html ........ a página completa (HTML + CSS, sem dependências)
+- assets/ ........... imagens otimizadas, logo, textura de grão e favicon
+
+Como publicar
+Envie a pasta inteira (index.html + assets/) para a raiz da hospedagem,
+mantendo a estrutura. Funciona em qualquer servidor estático:
+Hostinger, Locaweb, Netlify, Vercel, GitHub Pages, cPanel etc.
+As fontes (Inter Tight e Instrument Serif) carregam do Google Fonts.
+
+Pendências antes de publicar (procure por colchetes no index.html)
+- [FOTO DOS SÓCIOS DA CINC]
+- [Mini bio e atribuições] dos 5 profissionais
+- WhatsApp: [NÚMERO], [E-MAIL], [SITE]
+- Botões "Agendar consultoria": hoje levam ao rodapé (#contato).
+  Com o número em mãos, troque href="#contato" por
+  https://wa.me/55DDDNUMERO?text=Olá!%20Quero%20agendar%20uma%20consultoria
+- Tag de pixel/analytics (Meta Pixel, GA4) não incluída: inserir antes do </head>.
